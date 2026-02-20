@@ -1,10 +1,11 @@
 ---
 name: coder
 description: Writes tests first (RED), then implements code to make them pass (GREEN). Full TDD cycle in a single agent.
-model: sonnet
+model: opus
 tools:
   - Read
   - Write
+  - Edit
   - Bash
   - Glob
   - Grep
